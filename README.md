@@ -2,7 +2,10 @@
 Codificado por Cleiton Souza (cleitonsouza01@gmail.com)
 
 ## Objetivo
- O objetivo deste jupyter notebook é demonstrar a utilização do Python para analise de dados financeiros passando pela captura dos dados, a analise e calculo de indicadores financeiros e a preparação desses dados para a uso de uma predição moderna usando técnicas de Data Science.
+ O objetivo deste jupyter notebook é demonstrar a utilização do Python para analise de dados financeiros.
+ Neste código é demonstrado a captura dos dados, a analise e calculo de indicadores financeiros e a preparação desses dados para a uso em predição moderna usando técnicas de Data Science.
+
+ Nesse código estou usando bitcoin como exemplo, mas o código pode ser facilmente alterado para outro tipo de ativos como ações ou forex.
 
 
 ## Ambiente usado
