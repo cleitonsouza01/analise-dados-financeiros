@@ -1,14 +1,16 @@
-# Analise de dados financeiros
-Codificado por Cleiton Souza (cleitonsouza01@gmail.com)
-
-## Objetivo
- O objetivo deste jupyter notebook é demonstrar a utilização do Python para analise de dados financeiros.
- Neste código é demonstrado a captura dos dados, a analise e calculo de indicadores financeiros e a preparação desses dados para a uso em predição moderna usando técnicas de Data Science.
-
- Nesse código estou usando bitcoin como exemplo, mas o código pode ser facilmente alterado para outro tipo de ativos como ações ou forex.
+# Finance Data Analysys
+Coded by Cleiton Souza (cleitonsouza01@gmail.com)
 
 
-## Ambiente usado
+## Purpose
+ The purpose of this jupyter notebook is to demonstrate the use of Python to analyze financial data.
+ This code demonstrates the capture of data, the analysis and calculation of financial indicators and the preparation of these data for use in modern prediction using Data Science techniques, as a neural network.
+
+ In this code I am using bitcoin as an example, but the code can be easily changed to other types of assets like stocks, forex or options.
+
+
+## Environment used
+
 ```
 uname -a
 Linux pc 4.15.0-23-generic #25-Ubuntu SMP Wed May 23 18:02:16 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
@@ -16,40 +18,41 @@ Linux pc 4.15.0-23-generic #25-Ubuntu SMP Wed May 23 18:02:16 UTC 2018 x86_64 x8
 python --version
 Python 3.6.5
 ```
-Demais bibliotecas usadas pode ser encontrada no arquivo requeriments.txt
+Other libraries used can be found in the file requirements.txt
 
 
-## Como instalar
+## How to install
 
-Baixe esse repositorio:
+Download this repository:
 ```
 git clone https://github.com/cleitonsouza01/analise-dados-financeiros
 ```
 
-Entre no diretorio criado
+Enter the created directory
 ```
-cd analise-dados-financeiros
+cd analyze-financial-data
 ```
 
-Crie seu ambiente virtual:
+Create your virtual environment:
 ```
 python -m venv .venv
 ```
 
-Ative seu ambiente virtual:
+Activate your virtual environment:
 ```
 source .venv/bin/activate
 ```
 
-Instale as bibliotecas necessarias:
+Install the necessary libraries:
 ```
-python -m pip install -r requeriments.txt
-```
-
-Inicie o jupyter
-
-```
-jupyter notebook analise-dados-financeiros.ipynb
+python -m pip install -r requirements.txt
 ```
 
-Diversão iniciada!
+Start jupyter
+
+```
+jupyter notebook analyze-financial-data.ipynb
+```
+
+Fun begins!
+
