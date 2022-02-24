@@ -51,7 +51,7 @@ python -m pip install -r requirements.txt
 Start jupyter
 
 ```
-jupyter notebook analyze-financial-data.ipynb
+jupyter notebook analise-dados-financeiros.ipynb
 ```
 
 Fun begins!
